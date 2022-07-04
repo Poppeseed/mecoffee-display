@@ -230,7 +230,7 @@ static void handleMsgTimeouts()
 
     if(millis() - lastShtMsgMs > MSG_TIMEOUT_MS)
     {
-        brewing = false;
+        // brewing = false;
     }
 
     if(millis() - lastPidMsgMs > MSG_TIMEOUT_MS)
